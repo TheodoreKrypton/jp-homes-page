@@ -8,7 +8,7 @@ import datetime
 
 from github import Github, Auth
 
-github = Github(auth=Auth.Token(os.environ["GITHUB_TOKEN"]))
+github = Github()
 
 repo = github.get_repo("TheodoreKrypton/jp-homes-page")
 
@@ -55,12 +55,12 @@ with open(f"_posts/{date}-{obj['address']}.md", "w", encoding="utf-8") as fp:
 
     images = "\n".join(
         (
-            f"<img src=/assets/images/{get_image_id(url)}.jpg alt='alt_text'/>"
+            f'<img src="/assets/images/{get_image_id(url)}.jpg" alt="alt_text"/>'
             for url in photos[1:]
         )
     )
 
-    images = f"<div class='scroll-container'>{images}</div>"
+    images = '<div class="scroll-container">' + images + "</div>"
 
     original_link = f'[Original Link]({obj["original_url"]})'
     post = f"""
