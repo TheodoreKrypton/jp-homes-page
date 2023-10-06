@@ -1,0 +1,39 @@
+name: Create New Post
+
+on:
+  issues:
+    types:
+      - closed
+
+permissions:
+  contents: write
+
+jobs:
+  process-issue:
+    if: github.event.issue.user.login == 'TheodoreKrypton'
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v2
+
+      - name: setup python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.10"
+
+      - name: install python packages
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r scripts/requirements.txt
+
+      - name: Generate Post
+        run: python scripts/create_post.py ${{ github.event.issue.id }}
+
+      - name: commit and push
+        run: |
+          git config --global user.name 'Post Creator'
+          git config --global user.email 'TheodoreKrypton@users.noreply.github.com'
+          git add .
+          git commit -m "create post"
+          git push
