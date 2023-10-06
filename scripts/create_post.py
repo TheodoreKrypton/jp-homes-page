@@ -61,7 +61,7 @@ with open(f"_posts/{date}-{obj['address']}.md", "w", encoding="utf-8") as fp:
 ---
 layout: post
 title: "{title}"
-image: {cover_image_id}.jpg
+image: assets/images/{cover_image_id}.jpg
 ---
 {description}
 * Price: {obj['price']} JPY
