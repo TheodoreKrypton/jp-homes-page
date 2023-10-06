@@ -28,7 +28,7 @@ jobs:
           pip install -r scripts/requirements.txt
 
       - name: Generate Post
-        run: python scripts/create_post.py ${{ github.event.issue.id }}
+        run: GITHUB_TOKEN=${{ secrets.GITHUB_TOKEN }} python scripts/create_post.py ${{ github.event.issue.id }}
 
       - name: commit and push
         run: |

@@ -1,13 +1,14 @@
 import sys
+import os
 import requests
 import re
 import json
 import html
 import datetime
 
-from github import Github
+from github import Github, Auth
 
-github = Github()
+github = Github(auth=Auth.Token(os.environ["GITHUB_TOKEN"]))
 
 repo = github.get_repo("TheodoreKrypton/jp-homes-page")
 
