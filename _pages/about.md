@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Mediumish Template for Jekyll
+title: 日本廉价好房
 permalink: /about
 comments: true
 ---
