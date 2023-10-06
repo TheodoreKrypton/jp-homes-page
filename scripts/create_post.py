@@ -55,7 +55,7 @@ with open(f"_posts/{date}-{obj['address']}.md", "w", encoding="utf-8") as fp:
 
     images = "\n".join(
         (
-            f'<img src="/assets/images/{get_image_id(url)}.jpg" alt="alt_text"/>'
+            f'<img src="/jp-homes-page/assets/images/{get_image_id(url)}.jpg" alt="alt_text"/>'
             for url in photos[1:]
         )
     )
