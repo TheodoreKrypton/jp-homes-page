@@ -39,7 +39,7 @@ photos = obj["photos"]
 for url in photos:
     data = requests.get(url).content
     img_id = get_image_id(url)
-    with open(f"assets/img/{img_id}.jpg", "wb") as fp:
+    with open(f"assets/images/{img_id}.jpg", "wb") as fp:
         fp.write(data)
 
 with open(f"_posts/{date}-{obj['address']}.md", "w", encoding="utf-8") as fp:
@@ -54,7 +54,7 @@ with open(f"_posts/{date}-{obj['address']}.md", "w", encoding="utf-8") as fp:
 
     images = "\n".join(
         [
-            f"![alt_text](/jp-homes-page/assets/img/{get_image_id(url)}.jpg)"
+            f"![alt_text](/jp-homes-page/assets/images/{get_image_id(url)}.jpg)"
             for url in photos[1:]
         ]
     )
