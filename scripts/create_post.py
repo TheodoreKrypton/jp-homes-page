@@ -54,8 +54,14 @@ with open(f"_posts/{date}-{obj['address']}.md", "w", encoding="utf-8") as fp:
         description = ""
 
     images = "\n".join(
-        [f"![alt_text](/assets/images/{get_image_id(url)}.jpg)" for url in photos[1:]]
+        (
+            f"<img src=/assets/images/{get_image_id(url)}.jpg alt='alt_text'/>"
+            for url in photos[1:]
+        )
     )
+
+    images = f"<div class='scroll-container'>{images}</div>"
+
     original_link = f'[Original Link]({obj["original_url"]})'
     post = f"""
 ---

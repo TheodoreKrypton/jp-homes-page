@@ -899,3 +899,14 @@ iframe {
     opacity: 0;
     transition: opacity .25s;
 }
+
+div.scroll-container {
+  background-color: #333;
+  overflow: auto;
+  white-space: nowrap;
+  padding: 10px;
+}
+
+div.scroll-container img {
+  padding: 10px;
+}
