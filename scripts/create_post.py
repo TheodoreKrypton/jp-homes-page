@@ -47,7 +47,7 @@ with open(f"_posts/{date}-{obj['address']}.md", "w", encoding="utf-8") as fp:
 
     for comment in issue.get_comments():
         if comment.user.login == "kongicus":
-            description = f"# Description\n<p>{comment.body}</p>\n"
+            description = f"<p>{comment.body}</p>\n"
             break
     else:
         description = ""
@@ -69,17 +69,17 @@ with open(f"_posts/{date}-{obj['address']}.md", "w", encoding="utf-8") as fp:
 ---
 layout: post
 title: "{title}"
-categories: [{city}]
+categories: ["{city}"]
 image: assets/images/{cover_image_id}.jpg
 comments: false
 ---
 {description}
-* Price: {obj['price']} JPY
-* Rooms: {obj['rooms']}
-* Land Area: {obj['land_area']}m²
-* Floor Area: {obj['floor_area']}m²
-* Constructed: {obj['completed_date']}
-* Location: [{obj['city']}](https://www.google.com/maps/search/?api=1&query={obj['location'][1]}%2C{obj['location'][0]})
+* 价格: {obj['price']} JPY
+* 户型: {obj['rooms']}
+* 土地面积: {obj['land_area']}m²
+* 建筑面积: {obj['floor_area']}m²
+* 建造时间: {obj['completed_date']}
+* 📍: [{obj['city']}](https://www.google.com/maps/search/?api=1&query={obj['location'][1]}%2C{obj['location'][0]})
 
 {images}
 {original_link}
