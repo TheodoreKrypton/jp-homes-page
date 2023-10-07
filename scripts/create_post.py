@@ -1,12 +1,11 @@
 import sys
-import os
 import requests
 import re
 import json
 import html
 import datetime
 
-from github import Github, Auth
+from github import Github
 
 github = Github()
 
@@ -63,11 +62,16 @@ with open(f"_posts/{date}-{obj['address']}.md", "w", encoding="utf-8") as fp:
     images = '<div class="scroll-container">' + images + "</div>"
 
     original_link = f'[Original Link]({obj["original_url"]})'
+
+    city = obj["city"]
+
     post = f"""
 ---
 layout: post
 title: "{title}"
+categories: [{city}]
 image: assets/images/{cover_image_id}.jpg
+comments: false
 ---
 {description}
 * Price: {obj['price']} JPY
