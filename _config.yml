@@ -1,7 +1,7 @@
 # Site
 name: "日本廉价好房"
 title: "日本廉价好房"
-description: "助你寻找日本廉价度假小屋，小红书号3011793295"
+description: "助你寻找日本廉价小屋，小红书号3011793295"
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/logo.png'
 baseurl: /jp-homes-page
@@ -13,11 +13,11 @@ permalink: /:title/
 
 # Authors
 authors:
-  sal:
-    name: default
+  default:
+    name: 日本廉价好房
     display_name: 日本廉价好房
     gravatar: e56154546cf4be74e393c62d1ae9f9d4
-    email: mail@jap.homes
+    email: mail@nipon.homes
     web: https://www.xiaohongshu.com/user/profile/6516ee14000000002401549e
     # twitter: https://twitter.com/wowthemesnet
     # description: "Author of Mediumish, a Bootstrap Medium styled template available for WordPress, HTML, Ghost and Jekyll. You are currently previewing Jekyll template demo."
