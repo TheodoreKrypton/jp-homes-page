@@ -1,0 +1,25 @@
+name: Delete Issue on Label
+
+on:
+  issues:
+    types:
+      - labeled
+
+jobs:
+  delete_issue:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+
+    - name: Delete issue on "delete" label
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      run: |
+        # Extract issue number from GitHub event payload
+        ISSUE_NUMBER=$(jq --raw-output .issue.number "${GITHUB_EVENT_PATH}")
+
+        # Delete the issue using GitHub API
+        curl -X DELETE -H "Authorization: token $GITHUB_TOKEN" \
+          "https://api.github.com/repos/${GITHUB_REPOSITORY}/issues/${ISSUE_NUMBER}"
