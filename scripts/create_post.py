@@ -3,7 +3,6 @@ import requests
 import re
 import json
 import html
-import datetime
 
 from github import Github
 
@@ -25,7 +24,7 @@ if not obj_matched:
 obj_str = obj_matched.group(1)
 obj = json.loads(html.unescape(obj_str))
 
-date = datetime.datetime.now().strftime("%Y-%m-%d")
+date = issue.created_at.strftime("%Y-%m-%d")
 
 title = f'{date}: {obj["address"]}'
 
@@ -65,6 +64,13 @@ with open(f"_posts/{date}-{obj['address']}.md", "w", encoding="utf-8") as fp:
 
     city = obj["city"]
 
+    featured = "false"
+
+    for label in issue.get_labels():
+        if label.name == "featured":
+            featured = "true"
+            break
+
     post = f"""
 ---
 layout: post
@@ -72,6 +78,7 @@ title: "{title}"
 categories: ["{city}"]
 image: assets/images/{cover_image_id}.jpg
 comments: false
+featured: {featured}
 ---
 {description}
 * 价格: {obj['price']} JPY
