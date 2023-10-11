@@ -5,6 +5,10 @@ on:
     types:
       - labeled
 
+permissions:
+  issues:
+    write
+
 jobs:
   delete_issue:
     if: contains( github.event.issue.labels.*.name, 'delete')
