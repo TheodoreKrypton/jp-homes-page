@@ -6,7 +6,7 @@ on:
       - labeled
 
 permissions:
-  issues:
+  contents:
     write
 
 jobs:
@@ -34,10 +34,10 @@ jobs:
 
     - name: commit and push
       run: |
-        git config --global user.name 'Post Creator'
+        git config --global user.name 'Post Editor'
         git config --global user.email 'TheodoreKrypton@users.noreply.github.com'
         git add .
-        git commit -m "create post"
+        git commit -m "delete post"
         git push
     # - name: Delete issue
     #   uses: vtcaregorodtcev/delete-issue@main
