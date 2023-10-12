@@ -36,4 +36,4 @@ jobs:
           git config --global user.email 'TheodoreKrypton@users.noreply.github.com'
           git add .
           git commit -m "create post"
-          git push || true
+          git push
