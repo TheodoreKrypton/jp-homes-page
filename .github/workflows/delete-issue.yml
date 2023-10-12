@@ -33,13 +33,12 @@ jobs:
       run: GITHUB_TOKEN=${{ secrets.GITHUB_TOKEN }} python scripts/delete_post.py ${{ github.event.issue.number }}
 
     - name: commit and push
-      if: steps.verify_diff.outputs.new_translations_exist == 'true'
       run: |
         git config --global user.name 'Post Editor'
         git config --global user.email 'TheodoreKrypton@users.noreply.github.com'
         git add .
         git commit -m "delete post"
-        git push
+        git push || true
         
     - name: Delete issue
       uses: vtcaregorodtcev/delete-issue@main
