@@ -32,6 +32,13 @@ jobs:
     - name: Delete Post
       run: GITHUB_TOKEN=${{ secrets.GITHUB_TOKEN }} python scripts/delete_post.py ${{ github.event.issue.number }}
 
+    - name: commit and push
+      run: |
+        git config --global user.name 'Post Creator'
+        git config --global user.email 'TheodoreKrypton@users.noreply.github.com'
+        git add .
+        git commit -m "create post"
+        git push
     # - name: Delete issue
     #   uses: vtcaregorodtcev/delete-issue@main
     #   with:
