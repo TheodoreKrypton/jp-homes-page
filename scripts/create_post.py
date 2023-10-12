@@ -4,25 +4,13 @@ import re
 import json
 import html
 
-from github import Github
-
-github = Github()
-
-repo = github.get_repo("TheodoreKrypton/jp-homes-page")
+from utils import get_issue, get_telegraph_object
 
 issue_id = sys.argv[1]
-issue = repo.get_issue(int(issue_id))
+issue = get_issue(int(issue_id))
 
 telegraph_post_link = issue.body
-
-rsp = requests.get(telegraph_post_link)
-
-obj_matched = re.search(r"\<pre\>(.+?)\<\/pre\>", rsp.text)
-if not obj_matched:
-    exit(0)
-
-obj_str = obj_matched.group(1)
-obj = json.loads(html.unescape(obj_str))
+obj = get_telegraph_object(telegraph_post_link)
 
 date = issue.created_at.strftime("%Y-%m-%d")
 
