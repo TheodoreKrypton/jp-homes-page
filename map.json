@@ -1,0 +1,200 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.577527,
+          35.458008
+        ]
+      },
+      "properties": {
+        "title": "横浜市保土ケ谷区仏向町",
+        "description": "<a href=\"https://www.athome.co.jp/kodate/1072475346/?DOWN=4&BKLISTID=004LPC&sref=list_map\">Original Link</a>",
+        "marker-symbol": "marker"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.808643,
+          35.97396
+        ]
+      },
+      "properties": {
+        "title": "埼玉県春日部市米崎130-9",
+        "description": "<a href=\"https://suumo.jp/chukoikkodate/saitama/sc_kasukabe/nc_73429091/\">Original Link</a>",
+        "marker-symbol": "marker"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.871075,
+          35.078186
+        ]
+      },
+      "properties": {
+        "title": "大津市坂本６丁目",
+        "description": "<a href=\"https://www.athome.co.jp/u?s=7cOAiFD\">Original Link</a>",
+        "marker-symbol": "marker"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.769277,
+          34.654235
+        ]
+      },
+      "properties": {
+        "title": "大和郡山市城町",
+        "description": "<a href=\"https://www.athome.co.jp/kodate/6979015557/?DOWN=1&BKLISTID=001LPC&sref=list_simple\">Original Link</a>",
+        "marker-symbol": "marker"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          140.308193,
+          35.4054
+        ]
+      },
+      "properties": {
+        "title": "茂原市中の島町",
+        "description": "<a href=\"https://www.athome.co.jp/kodate/1066416972/?DOWN=1&BKLISTID=001LPC&SPCD=20200600000008&sref=list_simple\">Original Link</a>",
+        "marker-symbol": "marker"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          140.02481,
+          35.76159
+        ]
+      },
+      "properties": {
+        "title": "船橋市咲が丘２丁目",
+        "description": "<a href=\"https://www.athome.co.jp/kodate/1039008583/?DOWN=4&BKLISTID=004LPC&sref=list_map\">Original Link</a>",
+        "marker-symbol": "marker"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.953855,
+          34.948932
+        ]
+      },
+      "properties": {
+        "title": "伊豆市佐野",
+        "description": "<a href=\"https://www.athome.co.jp/kodate/6979877879/?DOWN=1&BKLISTID=001LPC&sref=list_simple\">Original Link</a>",
+        "marker-symbol": "marker"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.81957,
+          35.975807
+        ]
+      },
+      "properties": {
+        "title": "埼玉県春日部市東中野",
+        "description": "<a href=\"https://suumo.jp/chukoikkodate/saitama/sc_kasukabe/nc_73192475/\">Original Link</a>",
+        "marker-symbol": "marker"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.108536,
+          36.551069
+        ]
+      },
+      "properties": {
+        "title": "長野市篠ノ井塩崎",
+        "description": "<a href=\"https://www.athome.co.jp/kodate/6978518992/?DOWN=1&BKLISTID=001LPC&sref=list_simple\">Original Link</a>",
+        "marker-symbol": "marker"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          140.677856,
+          35.729451
+        ]
+      },
+      "properties": {
+        "title": "旭市後草",
+        "description": "<a href=\"https://www.athome.co.jp/kodate/6979931245/?DOWN=1&BKLISTID=001LPC&sref=list_simple\">Original Link</a>",
+        "marker-symbol": "marker"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          141.240168,
+          43.113241
+        ]
+      },
+      "properties": {
+        "title": "札幌市手稲区手稲本町五条１丁目",
+        "description": "<a href=\"https://www.athome.co.jp/kodate/6979736948/?DOWN=1&BKLISTID=001LPC&sref=list_simple\">Original Link</a>",
+        "marker-symbol": "marker"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          141.315588,
+          42.987149
+        ]
+      },
+      "properties": {
+        "title": "札幌市南区南沢四条２丁目",
+        "description": "<a href=\"https://www.athome.co.jp/kodate/6979860250/?DOWN=1&BKLISTID=001LPC&sref=list_simple\">Original Link</a>",
+        "marker-symbol": "marker"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.544582,
+          34.737246
+        ]
+      },
+      "properties": {
+        "title": "大阪府大阪市東淀川区豊里３",
+        "description": "<a href=\"https://suumo.jp/chukoikkodate/osaka/sc_osakashihigashiyodogawa/nc_73406082/\">Original Link</a>",
+        "marker-symbol": "marker"
+      }
+    }
+  ]
+}
