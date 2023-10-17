@@ -18,9 +18,12 @@ mutation reopenIssue($input: ReopenIssueInput!) {
 variables = json.dumps({"input": {"issueId": node_id}})
 
 payload = json.dumps({"query": query, "variables": variables})
+
 headers = {
     "Content-Type": "application/json",
-    "Authorization": f"Bearer {os.environ['GITHUB_TOKEN']}]",
+    "Authorization": f"Bearer {os.environ['GITHUB_TOKEN']}",
 }
 
+
 response = requests.request("POST", url, headers=headers, data=payload)
+print(response.text)
