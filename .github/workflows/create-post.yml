@@ -37,3 +37,7 @@ jobs:
           git add .
           git commit -m "create post"
           git push
+      
+      - name: reopen issue if the workflow failed
+        if: failure()
+        run: GITHUB_TOKEN=${{ secrets.PERSONAL_TOKEN }} python scripts/reopen_issue.py ${{ github.event.issue.node_id }}|
