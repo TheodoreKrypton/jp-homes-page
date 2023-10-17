@@ -5,10 +5,6 @@ on:
     types:
       - labeled
 
-permissions:
-  contents:
-    write
-
 jobs:
   delete_issue:
     if: contains( github.event.issue.labels.*.name, 'delete')
@@ -33,13 +29,11 @@ jobs:
       run: GITHUB_TOKEN=${{ secrets.GITHUB_TOKEN }} python scripts/delete_post.py ${{ github.event.issue.number }}
 
     - name: commit and push
-      continue-on-error: true
-      run: |
-        git config --global user.name 'Post Editor'
-        git config --global user.email 'TheodoreKrypton@users.noreply.github.com'
-        git add .
-        git commit -m "delete post"
-        git push
+      uses: EndBug/add-and-commit@v9
+      with:
+        author_name: Post Editor
+        author_email: TheodoreKrypton@users.noreply.github.com
+        message: 'delete post'
         
     - name: Delete issue
       uses: vtcaregorodtcev/delete-issue@main
