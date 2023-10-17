@@ -4,7 +4,7 @@ title: "日本廉价好房"
 description: "助你寻找日本廉价小屋，<a href='https://www.xiaohongshu.com/user/profile/6516ee14000000002401549e'>小红书号3011793295</a>"
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/favicon.ico'
-baseurl: /
+baseurl: 
 google_analytics: 'UA-46278016-1'
 disqus: 'demowebsite'
 # mailchimp-list: 'https://wowthemes.us11.list-manage.com/subscribe/post?u=8aeb20a530e124561927d3bd8&amp;id=8c3d2d214b'
@@ -17,7 +17,7 @@ authors:
     name: 日本廉价好房
     display_name: 日本廉价好房
     gravatar: e56154546cf4be74e393c62d1ae9f9d4
-    email: mail@nipon.homes
+    email: renraku@nipon.homes
     web: https://www.xiaohongshu.com/user/profile/6516ee14000000002401549e
     # twitter: https://twitter.com/wowthemesnet
     # description: "Author of Mediumish, a Bootstrap Medium styled template available for WordPress, HTML, Ghost and Jekyll. You are currently previewing Jekyll template demo."

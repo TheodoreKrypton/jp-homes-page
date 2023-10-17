@@ -1,16 +1,13 @@
 import sys
 import requests
-import re
 import json
-import html
 
-from utils import get_issue, get_telegraph_object
+from utils import get_issue
 
 issue_id = sys.argv[1]
 issue = get_issue(int(issue_id))
 
-telegraph_post_link = issue.body
-obj = get_telegraph_object(telegraph_post_link)
+obj = json.loads(issue.body)
 
 date = issue.created_at.strftime("%Y-%m-%d")
 
