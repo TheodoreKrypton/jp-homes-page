@@ -27,16 +27,23 @@ jobs:
     - name: generate geojson
       run: |
         python scripts/generate_map.py
+
+    - name: stash changes
+      run: |
+        git stash
     
     - name: Check out to map branch
       uses: actions/checkout@v2
       with:
         ref: map
 
-    - name: commit and push
+    - name: unstash changes
       run: |
-          git config --global user.name 'Post Editor'
-          git config --global user.email 'TheodoreKrypton@users.noreply.github.com'
-          git add .
-          git commit -m "generate map"
-          git push
+        git stash pop
+
+    - name: commit and push
+      uses: EndBug/add-and-commit@v9
+      with:
+        author_name: Post Editor
+        author_email: TheodoreKrypton@users.noreply.github.com
+        message: 'generate map'
