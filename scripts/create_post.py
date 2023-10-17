@@ -56,6 +56,12 @@ with open(f"_posts/{date}-{obj['address']}.md", "w", encoding="utf-8") as fp:
             featured = "true"
             break
 
+    location = (
+        f"* 📍: [{obj['city']}](https://www.google.com/maps/search/?api=1&query={obj['location'][1]}%2C{obj['location'][0]})"
+        if obj["location"]
+        else ""
+    )
+
     post = f"""
 ---
 layout: post
@@ -71,7 +77,7 @@ featured: {featured}
 * 土地面积: {obj['land_area']}m²
 * 建筑面积: {obj['floor_area']}m²
 * 建造时间: {obj['completed_date']}
-* 📍: [{obj['city']}](https://www.google.com/maps/search/?api=1&query={obj['location'][1]}%2C{obj['location'][0]})
+{location}
 
 {images}
 {original_link}
