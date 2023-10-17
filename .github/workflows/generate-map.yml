@@ -30,7 +30,7 @@ jobs:
 
     - name: stash changes
       run: |
-        git stash
+        git add map.json && git stash
     
     - name: Check out to map branch
       uses: actions/checkout@v2
