@@ -14,7 +14,6 @@ for issue in get_all_issues(state="closed"):
         properties={
             "title": obj["address"],
             "description": f'<a href="{obj["original_url"]}">Original Link</a>',
-            "marker-symbol": "marker",
         },
     )
     output.features.append(feature)
