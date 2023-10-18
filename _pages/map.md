@@ -29,7 +29,13 @@ var req = new XMLHttpRequest();
 
 req.onload = (e) => {
   var data = JSON.parse(req.responseText);
-  L.geoJSON(data).addTo(map);
+  L.geoJSON(data, {
+    onEachFeature: function (feature, layer) {
+      layer.on('click', function (e) {
+        window.open(feature.properties.URL);
+      });
+    }
+  }).addTo(map);
 };
 req.open("GET", 'https://raw.githubusercontent.com/TheodoreKrypton/jp-homes-page/map/map.json');
 req.send();
