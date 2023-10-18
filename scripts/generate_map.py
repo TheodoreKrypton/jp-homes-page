@@ -1,4 +1,5 @@
 import json
+import datetime
 
 from utils import get_all_issues
 from geojson import Feature, Point, FeatureCollection
@@ -9,11 +10,12 @@ for issue in get_all_issues(state="closed"):
     obj = json.loads(issue.body)
     if not obj["location"]:
         continue
+    permalink = f"/{issue.created_at.strftime('%Y/%m/%d')}/{obj['address']}"
     feature = Feature(
         geometry=Point(obj["location"]),
         properties={
             "title": obj["address"],
-            "description": f'<a href="{obj["original_url"]}">Original Link</a>',
+            "URL": permalink,
         },
     )
     output.features.append(feature)
