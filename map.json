@@ -6,6 +6,20 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          133.875698,
+          34.535418
+        ]
+      },
+      "properties": {
+        "title": "岡山市南区迫川",
+        "URL": "/2023/10/19/岡山市南区迫川"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           139.577527,
           35.458008
         ]
