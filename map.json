@@ -6,6 +6,20 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          132.61086,
+          34.716006
+        ]
+      },
+      "properties": {
+        "title": "安芸高田市美土里町本郷",
+        "URL": "/2023/10/20/安芸高田市美土里町本郷"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           133.875698,
           34.535418
         ]
