@@ -6,6 +6,48 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          137.7999,
+          34.67386
+        ]
+      },
+      "properties": {
+        "title": "磐田市白羽",
+        "URL": "/2023/10/23/磐田市白羽"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.64221,
+          35.150723
+        ]
+      },
+      "properties": {
+        "title": "富士市松岡",
+        "URL": "/2023/10/23/富士市松岡"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          136.390537,
+          34.452287
+        ]
+      },
+      "properties": {
+        "title": "松阪市飯南町粥見",
+        "URL": "/2023/10/22/松阪市飯南町粥見"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           132.61086,
           34.716006
         ]
