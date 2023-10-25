@@ -6,6 +6,20 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          137.159613,
+          36.24449
+        ]
+      },
+      "properties": {
+        "title": "飛騨市古川町中野",
+        "URL": "/2023/10/24/飛騨市古川町中野"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           137.7999,
           34.67386
         ]
