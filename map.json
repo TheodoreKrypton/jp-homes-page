@@ -6,6 +6,20 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          137.547858,
+          34.928229
+        ]
+      },
+      "properties": {
+        "title": "新城市緑が丘３丁目",
+        "URL": "/2023/10/26/新城市緑が丘３丁目"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           137.159613,
           36.24449
         ]
