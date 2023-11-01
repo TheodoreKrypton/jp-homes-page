@@ -6,6 +6,20 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          140.010206,
+          35.757023
+        ]
+      },
+      "properties": {
+        "title": "千葉県鎌ケ谷市鎌ケ谷３",
+        "URL": "/2023/10/31/千葉県鎌ケ谷市鎌ケ谷３"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           135.816833,
           34.938806
         ]
