@@ -6,6 +6,20 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          139.955496,
+          36.845198
+        ]
+      },
+      "properties": {
+        "title": "大田原市野崎２丁目",
+        "URL": "/2023/11/03/大田原市野崎２丁目"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           140.010206,
           35.757023
         ]
