@@ -6,6 +6,20 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          130.697938,
+          32.903966
+        ]
+      },
+      "properties": {
+        "title": "熊本市北区植木町岩野",
+        "URL": "/2023/11/11/熊本市北区植木町岩野"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           139.955496,
           36.845198
         ]
