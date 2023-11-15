@@ -6,6 +6,20 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          139.5119,
+          36.00456
+        ]
+      },
+      "properties": {
+        "title": "北本市石戸宿４丁目",
+        "URL": "/2023/11/14/北本市石戸宿４丁目"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           130.697938,
           32.903966
         ]
