@@ -6,6 +6,20 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          139.714018,
+          35.248256
+        ]
+      },
+      "properties": {
+        "title": "横須賀市浦賀３丁目",
+        "URL": "/2023/11/15/横須賀市浦賀３丁目"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           139.5119,
           36.00456
         ]
