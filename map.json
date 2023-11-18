@@ -6,6 +6,20 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          139.239256,
+          35.782057
+        ]
+      },
+      "properties": {
+        "title": "青梅市畑中３丁目",
+        "URL": "/2023/11/17/青梅市畑中３丁目"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           139.714018,
           35.248256
         ]
