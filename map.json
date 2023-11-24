@@ -6,6 +6,20 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          137.793685,
+          34.725745
+        ]
+      },
+      "properties": {
+        "title": "浜松市東区中野町",
+        "URL": "/2023/11/22/浜松市東区中野町"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           139.239256,
           35.782057
         ]
