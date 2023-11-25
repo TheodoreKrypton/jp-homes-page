@@ -6,6 +6,20 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          139.043394,
+          35.223943
+        ]
+      },
+      "properties": {
+        "title": "足柄下郡箱根町芦之湯",
+        "URL": "/2023/11/24/足柄下郡箱根町芦之湯"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           137.793685,
           34.725745
         ]
