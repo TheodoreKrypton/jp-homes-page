@@ -6,6 +6,20 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          135.570597,
+          34.618878
+        ]
+      },
+      "properties": {
+        "title": "八尾市竹渕東１丁目",
+        "URL": "/2023/12/01/八尾市竹渕東１丁目"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           139.043394,
           35.223943
         ]
