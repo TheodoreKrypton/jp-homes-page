@@ -6,6 +6,20 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          138.872486,
+          37.066961
+        ]
+      },
+      "properties": {
+        "title": "南魚沼市六日町",
+        "URL": "/2023/12/08/南魚沼市六日町"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           135.570597,
           34.618878
         ]
