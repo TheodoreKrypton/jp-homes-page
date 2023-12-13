@@ -6,6 +6,34 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          139.681974,
+          35.873742
+        ]
+      },
+      "properties": {
+        "title": "さいたま市緑区大字中尾",
+        "URL": "/2023/12/10/さいたま市緑区大字中尾"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.296911,
+          34.770149
+        ]
+      },
+      "properties": {
+        "title": "芦屋市奥池南町",
+        "URL": "/2023/12/08/芦屋市奥池南町"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           138.872486,
           37.066961
         ]
