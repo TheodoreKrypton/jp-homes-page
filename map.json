@@ -6,6 +6,34 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          139.783161,
+          35.816549
+        ]
+      },
+      "properties": {
+        "title": "草加市柳島町",
+        "URL": "/2023/12/13/草加市柳島町"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.901358,
+          35.858044
+        ]
+      },
+      "properties": {
+        "title": "千葉県流山市加６丁目",
+        "URL": "/2023/12/12/千葉県流山市加６丁目"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           139.681974,
           35.873742
         ]
