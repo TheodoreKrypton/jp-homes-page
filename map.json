@@ -6,6 +6,34 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          139.733925,
+          35.967561
+        ]
+      },
+      "properties": {
+        "title": "春日部市増富",
+        "URL": "/2024/01/18/春日部市増富"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.778086,
+          35.972115
+        ]
+      },
+      "properties": {
+        "title": "春日部市藤塚",
+        "URL": "/2024/01/17/春日部市藤塚"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           139.783161,
           35.816549
         ]
