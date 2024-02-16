@@ -6,6 +6,20 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          140.0062,
+          35.77508
+        ]
+      },
+      "properties": {
+        "title": "鎌ケ谷市南初富２丁目",
+        "URL": "/2024/02/15/鎌ケ谷市南初富２丁目"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           139.733925,
           35.967561
         ]
